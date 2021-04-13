@@ -2,7 +2,8 @@ spring:
   application:
     name: clickhouse-spring-data-demo
   datasource:
-    username: admin
-    password: admin
-    url: "jdbc:mysql://localhost:9004/springDemo?serverTimezone=UTC"
-    driverClassName: com.mysql.cj.jdbc.Driver
+    username: demo_user
+    password: demo_user
+    url: "jdbc:mysql://localhost:9004/spring_demo?serverTimezone=UTC"
+    hikari:
+      auto-commit: false
