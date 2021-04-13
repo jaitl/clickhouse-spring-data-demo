@@ -11,11 +11,6 @@ import org.springframework.transaction.support.TransactionOperations
 @Configuration
 class ApplicationConfiguration {
     @Bean
-    fun springSessionTransactionOperations(): TransactionOperations {
-        return TransactionOperations.withoutTransaction()
-    }
-
-    @Bean
     fun transactionManager(): PlatformTransactionManager {
         return object : PlatformTransactionManager {
             override fun getTransaction(definition: TransactionDefinition?): TransactionStatus =

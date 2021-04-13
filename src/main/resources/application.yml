@@ -2,8 +2,6 @@ spring:
   application:
     name: clickhouse-spring-data-demo
   datasource:
-    username: demo_user
-    password: demo_user
+    username: admin
+    password: admin
     url: "jdbc:mysql://localhost:9004/spring_demo?serverTimezone=UTC"
-    hikari:
-      auto-commit: false

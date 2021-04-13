@@ -6,6 +6,9 @@ import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.data.jdbc.core.convert.JdbcCustomConversions
 import org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration
+import org.springframework.data.relational.core.dialect.Dialect
+import org.springframework.data.relational.core.dialect.MySqlDialect
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations
 
 @Configuration
 class DbConfiguration : AbstractJdbcConfiguration() {

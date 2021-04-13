@@ -25,6 +25,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
 	runtimeOnly("mysql:mysql-connector-java")
+	// runtimeOnly("org.postgresql:postgresql")
 }
 
 tasks.withType<KotlinCompile> {

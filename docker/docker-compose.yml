@@ -9,7 +9,7 @@ services:
     networks:
       - clickhouse
   clickhouse-client:
-    image: yandex/clickhouse-client:21.2
+    image: yandex/clickhouse-client:21.4
     networks:
       - clickhouse
 networks:
