@@ -1,4 +1,6 @@
 # clickhouse-spring-data-demo
+[![build](https://github.com/Jaitl/clickhouse-spring-data-demo/actions/workflows/build.yml/badge.svg)](https://github.com/Jaitl/clickhouse-spring-data-demo/actions/workflows/build.yml)
+
 Demo project for my article: name
 
 ## Run Clickhouse
