@@ -1,7 +1,7 @@
 package com.github.jaitl.clickhouse.demo.repository
 
 import com.fasterxml.jackson.annotation.JsonIgnore
-import com.github.jaitl.clickhouse.demo.model.StringList
+import com.github.jaitl.clickhouse.demo.converter.StringList
 import org.springframework.data.domain.Persistable
 import org.springframework.data.relational.core.mapping.Table
 import java.sql.Timestamp

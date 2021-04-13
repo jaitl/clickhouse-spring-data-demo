@@ -12,7 +12,7 @@ class ItemController(val dataItemRepository: DataItemRepository) {
 
     @PostMapping
     fun create(@RequestBody item: DataItem): String {
-        logger.info("Write item to DB: $item")
+        logger.info("Write the item to DB: $item")
         dataItemRepository.save(item)
         return "OK"
     }

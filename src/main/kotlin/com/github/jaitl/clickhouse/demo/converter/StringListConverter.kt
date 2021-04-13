@@ -1,6 +1,5 @@
 package com.github.jaitl.clickhouse.demo.converter
 
-import com.github.jaitl.clickhouse.demo.model.StringList
 import org.springframework.core.convert.converter.Converter
 import org.springframework.data.convert.ReadingConverter
 import org.springframework.data.convert.WritingConverter
