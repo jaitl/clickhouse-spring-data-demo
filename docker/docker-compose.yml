@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  clickhouse-server:
+    build: .
+    ports:
+      - 8123:8123
+      - 9000:9000
+      - 9004:9004
+    networks:
+      - clickhouse
+  clickhouse-client:
+    image: yandex/clickhouse-client
+    networks:
+      - clickhouse
+networks:
+  clickhouse:
+    driver: bridge
