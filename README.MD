@@ -23,13 +23,12 @@ Demo project for my article: name
 ## Do request to service
 1. Create an item
    ```bash
+   curl --header "Content-Type: application/json" \
+      --request POST \
+      --data '{ "itemId": "12323", "timestamp": "2009-09-22T16:47:08.432", "data": "123","list": {"list": ["1", "2", "3"]}}' \
+      localhost:8080/v1/demo/item
    ```
 2. List items
-      ```bash
-   ```
-3. Update an item
-      ```bash
-   ```
-4. Delete an item
    ```bash
+   curl localhost:8080/v1/demo/item
    ```
