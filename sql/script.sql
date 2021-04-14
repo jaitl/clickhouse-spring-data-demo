@@ -8,4 +8,4 @@ CREATE TABLE spring_demo.items
     list Array(String)
 )
 ENGINE = MergeTree()
-PRIMARY KEY (item_id, timestamp);
+PRIMARY KEY (item_id);
