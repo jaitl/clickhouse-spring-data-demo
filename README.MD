@@ -20,7 +20,7 @@ Demo project for my article: name
 ./gradlew bootRun
 ```
 
-## Do request to service
+## Send request to service
 1. Create an item
    ```bash
    curl --header "Content-Type: application/json" \
