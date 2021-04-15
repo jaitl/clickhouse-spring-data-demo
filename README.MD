@@ -19,6 +19,7 @@ Demo project for my article: Working With ClickHouse From Spring Data Using MySq
 ```bash
 ./gradlew bootRun
 ```
+***Note:*** Java 11 or later has to be installed to run the demo project.
 
 ## Send a request to the service
 * Create an item
