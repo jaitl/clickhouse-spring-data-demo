@@ -1,7 +1,7 @@
 # clickhouse-spring-data-demo
 [![build](https://github.com/Jaitl/clickhouse-spring-data-demo/actions/workflows/build.yml/badge.svg)](https://github.com/Jaitl/clickhouse-spring-data-demo/actions/workflows/build.yml)
 
-Demo project for my article: [Working With ClickHouse From Spring Data Using MySql Driver](https://itnext.io/working-with-clickhouse-from-spring-data-using-mysql-driver-92f754550259)
+Demo project for my article: [Working With ClickHouse From Spring Data Using MySql Driver](https://jaitl.pro/post/2021/04/16/clickhouse-spring-data/)
 
 ## Run Clickhouse
 1. Open the docker folder: `cd docker`
